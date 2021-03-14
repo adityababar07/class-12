@@ -19,7 +19,7 @@ def CountYouMe(data):
     print(f"The number of 'You' and 'Me' words is {count}.")
     return
 
-with open("Notes.txt", "r+") as f:
+with open("F:\\class_12\\Notes.txt", "r+") as f:
     CountYouMe(f)
                 
                     
